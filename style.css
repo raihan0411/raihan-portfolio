@@ -1,6 +1,35 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
+}
+.highlight{
+    color: goldenrod;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 90%;
+    padding-left: 5%;
+}
+.half img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red,green);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+}
+.button-color{
+    color: goldenrod;
+}
+.top-background{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
